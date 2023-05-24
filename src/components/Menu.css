@@ -1,0 +1,97 @@
+.headerButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    background-color: #202124;
+    cursor: pointer;
+}
+
+.headerButtons:hover{
+    border-radius: 100%;
+    background-color: #303134;
+}
+
+.sectionMenu{
+    display: none;
+    position: absolute;
+    top: 67px;
+    right: 14px;
+    background-color: #2d2e30;
+    width: 318px;
+    height: 438px;
+    box-shadow: 0 -1px 2px 0 rgba(0,0,0,.3), 0 -2px 6px 2px rgba(0,0,0,.15);
+    border-radius: 8px;
+    padding: 14px 0px 10px 14px;
+    overflow: hidden;
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+.sectionMenu::-webkit-scrollbar{
+    width: 16px;
+}
+
+.sectionMenu::-webkit-scrollbar-thumb{
+    background-color: #5f6368;
+    border-radius: 20px;
+    border: 4px solid #2d2e30;
+}
+
+.menuDiv{
+    display: flex;
+    
+}
+
+.menuUl{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menuLi{
+    width: 96px;
+    height: 96px;
+    padding: 6px;
+    cursor: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menuLi a{
+    width: 84px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #e8eaed;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding-bottom: 12px;
+}
+
+.menuLi a:hover{
+    background-color: #28292c;
+    border-radius: 8px;
+}
+
+.menuLi img{
+    padding: 6px;
+}
+
+.sectionLine{
+    display: block;
+    border-bottom: 1px solid #5f6368;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    position: relative;
+    width: 100%;
+}
+
+.desplegar{
+    display: block;
+}

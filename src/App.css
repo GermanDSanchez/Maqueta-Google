@@ -1,0 +1,130 @@
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 6px 10px;
+}
+
+.headerA{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial,sans-serif;
+    margin-right: 15px;
+    height: 24px;
+    margin-bottom: 1px;
+}
+
+.headerA:hover{
+    text-decoration: underline;
+}
+
+.buttonLogin{
+    text-decoration: none;
+    color: #202124;
+    background: #8ab4f8;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 8px;
+}
+
+.sectionCenter{
+    position: relative;
+    bottom: 92px;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionLogo{
+    width: 272px;
+    height: 92px;
+    margin-bottom: 26px;
+}
+
+.sectionDivInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    height: 48px;
+    width: 584px;
+    padding: 5px 15px;
+}
+
+.sectionDivInput:hover{
+    background-color: #303134;
+    box-shadow: 0px 0px 5px 4px rgb(0, 0, 0, 0.1);
+}
+
+.sectionDivInput:hover .sectionInput{
+    background-color: #303134;
+}
+
+.sectionInput{
+    width: 435px;
+    height: 27px;
+    font-size: 1.6rem;
+    border: 0;
+    outline: none;
+    background-color: #202124;
+    color: #fff;
+}
+
+.sectionDivButtons{
+    margin-top: 29px;
+}
+
+.sectionButton{
+    display: inline-block;
+    padding: 9px 16px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    margin: 0px 6px;
+}
+
+.sectionButton:hover{
+    border: 1px solid #5f6368;
+}
+
+.footer{
+    background-color: #171717;
+    font-family: arial,sans-serif;
+}
+
+.footerDivArgentina{
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    color: #9aa0a6;
+}
+
+.footerDivButtons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    outline: none;
+}
+
+.footerDiv a{
+    display: inline-block;
+    text-decoration: none;
+    color: #9aa0a6;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+.footerDiv a:hover{
+    text-decoration: underline;
+}
